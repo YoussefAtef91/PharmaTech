@@ -1,0 +1,222 @@
+.dash{
+    border: 1px solid #5ecefc;
+    padding: 10px;
+    margin: 20px;
+    width: 10%;
+    text-align: left;
+    background-color: #f1f3f6;
+    display: inline-block;
+    height: 80px;
+    width: 180px;
+    border-radius: 4px;
+    box-shadow: 4px 5px #d2cdcd;
+    
+}
+
+.dash h4{
+    font-size: 20px;
+    color: #191970;
+    margin-top: 0;
+}
+.dash p{
+    color: #4682B4;
+    font-size: 25px;
+}
+.dash p p1{
+    color: rgb(0, 213, 0);
+    margin-left: 5px;
+    font-size: 20px;
+}
+.dash p p2{
+    color: rgb(255, 0, 0);
+    margin-left: 5px;
+    font-size: 20px;
+}
+.dashboard{
+    padding: 5px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.functions{
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    margin-left: 200px;
+}
+.function{
+    border: 0.5px solid #5ecefc;
+    padding: 10px;
+    margin: 10px;
+    width: 10%;
+    text-align: center;
+    background-color: #f1f3f6;
+    display: inline-block;
+    height: 120px;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.function img{
+    width: 50px;
+}
+.function a{
+    color: #191970;
+}
+.function a{
+    font-size: 20px;
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side {
+    height: 100%;
+    width: 200px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+  }
+  
+  .side a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+  
+  .side a:hover {
+    color: #f1f1f1;
+    transition: all ease 500ms;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  .side .profile{
+      margin: 10px;
+      margin-bottom: 10px;
+  }
+  .side .profile img{
+    margin-bottom: 12px;
+    border-radius: 50%;
+  }
+  .side .profile p{
+      color: #829dac;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: rgb(104, 103, 103);
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "⚕";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #111;
+    color: rgb(104, 103, 103);
+}
+hr.style-nine {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: rgb(104, 103, 103);
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 210px;
+}
+hr.style-nine:after {
+    content: "DASHBOARD";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 30px;
+    padding: 0 0.25em;
+    background: #f5f5f5;
+    color: #829dac;
+}
+.header{
+    display: inline;
+}
+.header h1{
+    color: #829dac;
+    float:left;
+    margin-left: 300px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.464);
+}
+.report{
+    border: none;
+    float: right;
+    margin-right: 100px;
+}
+table tr.cols{
+    color: #829dac;
+}
+.update{
+    border: 1px solid #829dac;
+    color: #191970;
+    font-size: 15px;
+    padding: 5px;
+}
+.invoice{
+    position: relative;
+}
+.invoice h3{
+    text-align: center;
+    color: #829dac;
+}
+.amount {
+    color: black;
+    margin-left: 460px;
+    border: 1px solid black;
+    display: inline;
+    padding: 5px;
+    border-width: 200px;
+}
+.manage a{
+    color: #191970;
+}
